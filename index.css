@@ -1,0 +1,58 @@
+#idHeader img {
+    width: 80px;
+}
+
+.text-platzi{
+    color: #97c93e !important;
+}
+
+.btn-platzi{
+    background-color: #97c93e !important;
+    color: white !important;
+}
+
+.btn-platzi:hover{
+    background-color: #628622 !important;
+}
+
+#idMain .carousel-inner img{
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+
+#idPlace-Time{
+    background-color: #343a40;
+    color: white;
+}
+
+#idPlace-Time img{
+    max-width: 100%;
+}
+
+#idFooter{
+    background: linear-gradient(75deg, #1c56f1, #1c11a1 35%, #01164d);
+}
+
+#idFooter .row div a {
+    color: white;
+}
